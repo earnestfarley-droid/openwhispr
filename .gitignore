@@ -267,8 +267,8 @@ $RECYCLE.BIN/
 *.swo
 *~
 
-# AI agent skills (keep local)
-.claude/
+# AI agent skills (keep local, except shared skills in .claude/skills/)
+.claude/*
 .agent/
 .agents/
 .cline/
@@ -297,6 +297,7 @@ $RECYCLE.BIN/
 .windsurf/
 .zencoder/
 skills/
+!.claude/skills/
 
 # OS generated files
 .DS_Store
